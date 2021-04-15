@@ -1,0 +1,65 @@
+.experiences h1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 50px;
+    /* font-weight: 700; */
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 51px;
+} 
+
+.experiences .mail::after{
+    content: ' ';
+    width: 130px;
+    height: 1px;
+    background: #f04e3c;
+    display: block;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.experiences h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+.experiences span::after{
+    position: absolute;
+    content: ' ';
+    width: 70px;
+    height: 1px;
+    background: #fff;
+    margin-top: 7px;
+    left: 60%;
+
+
+}
+
+.year-number{
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+.year-number > .number-5{
+    font-size: 70px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.year-number  .year-text{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+
+@media  only screen and (max-width:442px){
+    .experiences h1{
+        font-size: 25px;
+    } 
+
+   
+}

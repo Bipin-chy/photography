@@ -1,0 +1,31 @@
+#testomonial-section .col{
+    text-align: center;
+}
+
+#testomonial-section p{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#testomonial-section .testomonial-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+#testomonial-section .testomonial-image .chief{
+        margin-left: 55px;
+}
+
+@media only screen and (max-width:442px){
+    #testomonial-section p{
+       padding-left: 0;
+       padding-right: 0;
+       text-align: justify;
+    }
+
+
+}

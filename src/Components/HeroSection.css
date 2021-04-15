@@ -1,0 +1,82 @@
+.banner-section{
+    height: 1080px;
+    background: url('./hero_man1.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color:  rgb(28, 27, 27);
+    position: relative;
+}
+
+.banner-text{
+    width: 50%;
+    position: absolute;
+    left: 100px;
+    top: 30%;
+}
+
+.banner-text span{
+    font-size: 1.5rem;
+    /* font-weight: 400; */
+    color: #f04e3c;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.banner-text{
+    width: 50%;
+    position: absolute;
+    left: 100px;
+    top: 30%;
+}
+
+.banner-text span::before{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background: #f04e3c;
+    left: 0;
+    top: 52%;
+    transform: translateY(-50%);
+}
+
+.banner-text h1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 70px;
+    /* font-weight: 700; */
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 44px;
+    margin-bottom: 51px;
+}
+
+@media  only screen and (max-width:442px){
+    .banner-text h1{
+        font-size: 27px;
+        line-height: 1.2;
+    }
+
+    .banner-text{
+        width: 100%;
+        position: absolute;
+        left: 30px;
+        top: 15%;
+    }
+    
+
+    .banner-section{
+        background: rgb(28, 27, 27);
+        height: 400px;
+    }
+
+    .banner-text span{
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+   
+}

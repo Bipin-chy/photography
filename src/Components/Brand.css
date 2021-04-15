@@ -1,0 +1,76 @@
+#brand{
+    background-color: #000;
+    color: #fff;
+}
+
+#brand h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#brand p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#brand .brand-card{
+    border: 0.5px solid #fff;
+    width: 48%;
+    text-align: center;
+    padding-top:60px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+}
+
+#brand .brand-card .brand-card-text{
+    margin-top: 20px;
+}
+
+#brand .brand-card .brand-card-text p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+#brand .get-start-btn{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.brand-col2{
+    display: flex;
+    justify-content: space-between;
+     margin-left: 20px;
+}
+
+@media only screen and (max-width:442px){
+
+
+    #brand h2{
+            font-size: 24px;
+            line-height: 1.6;
+        
+    }
+
+    .brand-col{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+
+    }
+
+    #brand .brand-card{
+        border: 0.5px solid #fff;
+        width: 60vh;
+        text-align: center;
+        padding-top:60px;
+        padding-bottom: 40px;
+    }
+
+    .brand-col2{
+        
+         margin-left: 0;
+    }
+}

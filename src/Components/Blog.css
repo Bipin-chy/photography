@@ -1,0 +1,21 @@
+.blog01{
+    background-color: black;
+    color: #fff;
+}
+
+.blog01 .blog-card-text h3{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+ .blog-card{
+    overflow: hidden;
+    transition: 0.5s all ease-in;
+}
+
+.blog01 .blog-card:hover, .blog-card img{
+    transition: 0.5s all ease-in;
+    transform: scale(1.1);
+    
+}

@@ -1,0 +1,28 @@
+#tourist-blog{
+    background-color: #000;
+    color: #fff;
+}
+
+#tourist-blog h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#tourist-blog .tourist-blog-card{
+    position: relative;
+} 
+
+.tourist-blog-card-text{
+    position: absolute;
+    background-color: #121212;
+    padding: 30px;
+    left: 17px;
+    bottom: -40px;
+} 
+
+@media only screen and (max-width:442px) {
+    #tourist-blog .tourist-blog-card{
+        margin-bottom: 60px;
+    } 
+}
