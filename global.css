@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+  }
+
+.container{
+    margin: 0 auto;
+    padding:80px 30px;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .col {
+    flex: 1 0 0%;
+    margin-top: 20px;
+    margin-top: 20px;
+  }
+
+  .contact-btn button, .watch-portfolio-btn button, .get-start-btn button{
+    padding: 15px 30px;
+    background-color: #f04e3c;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.experiences, #testomonial-section, .gallery{
+    background-color: #121212;
+    color: #fff;
+}
+
+
+@media only screen and (max-width:442px){
+  .col{
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
